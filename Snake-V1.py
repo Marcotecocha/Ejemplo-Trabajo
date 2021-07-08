@@ -23,6 +23,8 @@ cabeza.direction = "stop"
 while True:
     wn.update()
 
-    time.sleep(posponer)
+    time.sleep(posponer)}
+    cabeza.goto(0,200)
+    
 
 #Creación de Ventana del juego y cabeza de la serpiente
